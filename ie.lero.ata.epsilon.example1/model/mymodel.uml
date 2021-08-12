@@ -18,7 +18,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_VTBEQfT6EeufacaapdQYeg" name="authenticator" type="_jmeYQPT5EeufacaapdQYeg" association="_VTAdMPT6EeufacaapdQYeg"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_VTBEQvT6EeufacaapdQYeg" name="proofofidentity" type="_cVoA0PT5EeufacaapdQYeg" association="_VTAdMPT6EeufacaapdQYeg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_lsInwPT6EeufacaapdQYeg" name="userEngineer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lsInwPT6EeufacaapdQYeg" name="Maintenance Operator"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_oOvucPT6EeufacaapdQYeg" name="Elevator">
       <packagedElement xmi:type="uml:Package" xmi:id="_ghegwPT6EeufacaapdQYeg" name="Autenticator">
         <packagedElement xmi:type="uml:Class" xmi:id="_l_7i8PT5EeufacaapdQYeg" name="AuthenticationInformation"/>
@@ -32,7 +32,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_IilXUPT9EeufacaapdQYeg" name="Right"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_rAy_UPT6EeufacaapdQYeg" name="userPassenger"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rAy_UPT6EeufacaapdQYeg" name="User"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_--wikPT6EeufacaapdQYeg" name="InterfacePassenger"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_B49C0PT7EeufacaapdQYeg" name="InterfaceAdmin"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_MuKR0PT7EeufacaapdQYeg" name="engineerAdminUsage" client="_lsInwPT6EeufacaapdQYeg" supplier="_B49C0PT7EeufacaapdQYeg"/>

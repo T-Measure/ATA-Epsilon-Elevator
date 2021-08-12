@@ -33,7 +33,7 @@ context Class {
 		
 		check: self.noAccessToAnyRestrictedResourceWithoutAuthorization()  	
 		
-		message: "///////////ERROR Constraint ProtectingRestrictedData: User "+self.name+
+		message: "///////////ERROR Constraint ProtectingRestrictedData: Entity "+self.name+
 					" is Connected to a protected resource without authorization pattern."
 	}
 }
