@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:myprofile="http:///schemas/myprofile/_jRy14PkkEeuzj4FiJXG4MQ/8" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/myprofile/_jRy14PkkEeuzj4FiJXG4MQ/8 mystereotypes.profile.uml#_jR0rEPkkEeuzj4FiJXG4MQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:myprofile="http:///schemas/myprofile/_7GqAoP9jEeuTHYvxZ6fXDg/11" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/myprofile/_7GqAoP9jEeuTHYvxZ6fXDg/11 mystereotypes.profile.uml#_7GqAof9jEeuTHYvxZ6fXDg">
   <uml:Model xmi:id="_T3A1wPT5EeufacaapdQYeg" name="org">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_T7OnYPT5EeufacaapdQYeg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -31,6 +31,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_LLJKcPT8EeufacaapdQYeg" name="Role"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_IilXUPT9EeufacaapdQYeg" name="Right"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_8qWlEPT8EeufacaapdQYeg" name="interfaceAuth"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rAy_UPT6EeufacaapdQYeg" name="User"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_--wikPT6EeufacaapdQYeg" name="InterfacePassenger"/>
@@ -44,8 +45,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_2sccMPT8EeufacaapdQYeg" name="authenticationinformation" type="_l_7i8PT5EeufacaapdQYeg" association="_2sYKwPT8EeufacaapdQYeg"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_2sYx0vT8EeufacaapdQYeg" name="role" type="_LLJKcPT8EeufacaapdQYeg" association="_2sYKwPT8EeufacaapdQYeg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_8qWlEPT8EeufacaapdQYeg" name="InterfaceAuthentication"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_CuuiUPT9EeufacaapdQYeg" name="engineerUseAuthentiicate" client="_lsInwPT6EeufacaapdQYeg" supplier="_8qWlEPT8EeufacaapdQYeg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_Ia5lgPT-EeufacaapdQYeg" name="verify" visibility="public" memberEnd="_Ia5lg_T-EeufacaapdQYeg _Ia6MkPT-EeufacaapdQYeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ia5lgfT-EeufacaapdQYeg" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ia5lgvT-EeufacaapdQYeg" key="nature" value="UML_Nature"/>
@@ -80,23 +79,37 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_Kx-pYPX1Eeu3hc00tiE9qw" name="interfacepassenger" type="_--wikPT6EeufacaapdQYeg" association="_Kx9bQPX1Eeu3hc00tiE9qw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Kx-pYfX1Eeu3hc00tiE9qw" name="movement" type="_8svcoPT6EeufacaapdQYeg" association="_Kx9bQPX1Eeu3hc00tiE9qw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_OvUosPX1Eeu3hc00tiE9qw" name="realize" memberEnd="_OvVPwfX1Eeu3hc00tiE9qw _OvV20PX1Eeu3hc00tiE9qw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OvUosfX1Eeu3hc00tiE9qw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OvVPwPX1Eeu3hc00tiE9qw" key="nature" value="UML_Nature"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7v2agP9WEeuTHYvxZ6fXDg" name="realise" memberEnd="_7v8hIP9WEeuTHYvxZ6fXDg _7v9IMP9WEeuTHYvxZ6fXDg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7v7TAP9WEeuTHYvxZ6fXDg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7v7TAf9WEeuTHYvxZ6fXDg" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_OvVPwfX1Eeu3hc00tiE9qw" name="role" type="_LLJKcPT8EeufacaapdQYeg" association="_OvUosPX1Eeu3hc00tiE9qw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_OvV20PX1Eeu3hc00tiE9qw" name="interfaceadmin" type="_B49C0PT7EeufacaapdQYeg" association="_OvUosPX1Eeu3hc00tiE9qw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_7v8hIP9WEeuTHYvxZ6fXDg" name="restrictedmonitoring" type="_G9vyYPT7EeufacaapdQYeg" association="_7v2agP9WEeuTHYvxZ6fXDg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_7v9IMP9WEeuTHYvxZ6fXDg" name="interfaceadmin" type="_B49C0PT7EeufacaapdQYeg" association="_7v2agP9WEeuTHYvxZ6fXDg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kXvPIP9XEeuTHYvxZ6fXDg" name="require" memberEnd="_kXv2Mf9XEeuTHYvxZ6fXDg _kXv2Mv9XEeuTHYvxZ6fXDg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kXvPIf9XEeuTHYvxZ6fXDg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kXv2MP9XEeuTHYvxZ6fXDg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_kXv2Mf9XEeuTHYvxZ6fXDg" name="restrictedmonitoring" type="_G9vyYPT7EeufacaapdQYeg" association="_kXvPIP9XEeuTHYvxZ6fXDg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_kXv2Mv9XEeuTHYvxZ6fXDg" name="role" type="_LLJKcPT8EeufacaapdQYeg" association="_kXvPIP9XEeuTHYvxZ6fXDg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ueXf4P9iEeuTHYvxZ6fXDg" name="use" memberEnd="_ueYG8P9iEeuTHYvxZ6fXDg _ueYG8f9iEeuTHYvxZ6fXDg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ueXf4f9iEeuTHYvxZ6fXDg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueXf4v9iEeuTHYvxZ6fXDg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ueYG8P9iEeuTHYvxZ6fXDg" name="interfaceauth" type="_8qWlEPT8EeufacaapdQYeg" association="_ueXf4P9iEeuTHYvxZ6fXDg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ueYG8f9iEeuTHYvxZ6fXDg" name="interfaceadmin" type="_B49C0PT7EeufacaapdQYeg" association="_ueXf4P9iEeuTHYvxZ6fXDg"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pfDpYPkkEeuzj4FiJXG4MQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pfEQcPkkEeuzj4FiJXG4MQ" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfEQcfkkEeuzj4FiJXG4MQ" key="Version" value="0.0.9"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfEQcvkkEeuzj4FiJXG4MQ" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfEQc_kkEeuzj4FiJXG4MQ" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfEQdPkkEeuzj4FiJXG4MQ" key="Date" value="2021-08-09"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfEQdfkkEeuzj4FiJXG4MQ" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_93J84P9kEeuTHYvxZ6fXDg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93J84f9kEeuTHYvxZ6fXDg" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93J84v9kEeuTHYvxZ6fXDg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93J84_9kEeuTHYvxZ6fXDg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93J85P9kEeuTHYvxZ6fXDg" key="Date" value="2021-08-17"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93J85f9kEeuTHYvxZ6fXDg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pfDpYfkkEeuzj4FiJXG4MQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="mystereotypes.profile.uml#_jR0rEPkkEeuzj4FiJXG4MQ"/>
+        <references xmi:type="ecore:EPackage" href="mystereotypes.profile.uml#_7GqAof9jEeuTHYvxZ6fXDg"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="mystereotypes.profile.uml#_TIr2YPaJEeu3hc00tiE9qw"/>
     </profileApplication>
@@ -109,4 +122,5 @@
   <myprofile:AuthenticatorProofOfId xmi:id="_0CsAMPkkEeuzj4FiJXG4MQ" base_Class="_cVoA0PT5EeufacaapdQYeg"/>
   <myprofile:AuthenticatorAuthenticator xmi:id="_1SYtgPkkEeuzj4FiJXG4MQ" base_Class="_jmeYQPT5EeufacaapdQYeg"/>
   <myprofile:AuthenticatorAuthenticationInformation xmi:id="_2TZekPkkEeuzj4FiJXG4MQ" base_Class="_l_7i8PT5EeufacaapdQYeg"/>
+  <myprofile:AuthenticatorInterface xmi:id="__e-2UP9kEeuTHYvxZ6fXDg" base_Interface="_8qWlEPT8EeufacaapdQYeg"/>
 </xmi:XMI>
