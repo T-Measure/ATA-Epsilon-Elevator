@@ -35,8 +35,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_uSXOwBB6Eey1BP9ad9K0EA" name="EmergencyCall"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_hTX94BB8Eey1BP9ad9K0EA" name="EmergencyCall"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_QpcsUBB-Eey1BP9ad9K0EA" name="EmergencyCall"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_dE1O8BB-Eey1BP9ad9K0EA" name="EnergySource"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_kV_IYBB-Eey1BP9ad9K0EA" name="EnergySource"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_-9i8YBCrEeyLWOr0fl8v1g" name="requires" client="_oOvucPT6EeufacaapdQYeg" supplier="_dE1O8BB-Eey1BP9ad9K0EA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rAy_UPT6EeufacaapdQYeg" name="User"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_--wikPT6EeufacaapdQYeg" name="InterfacePassenger"/>
@@ -135,6 +134,8 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_spaXIBB-Eey1BP9ad9K0EA" name="energysource" type="_dE1O8BB-Eey1BP9ad9K0EA" association="_spZwEBB-Eey1BP9ad9K0EA"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_spaXIRB-Eey1BP9ad9K0EA" name="energysource" type="_kV_IYBB-Eey1BP9ad9K0EA" association="_spZwEBB-Eey1BP9ad9K0EA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dE1O8BB-Eey1BP9ad9K0EA" name="EnergySource"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_kV_IYBB-Eey1BP9ad9K0EA" name="EnergySource"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pfDpYPkkEeuzj4FiJXG4MQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XTGWUBB9Eey1BP9ad9K0EA" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XTGWURB9Eey1BP9ad9K0EA" key="Version" value="0.0.17"/>
