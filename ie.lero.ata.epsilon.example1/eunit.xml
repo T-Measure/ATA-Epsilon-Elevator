@@ -23,10 +23,16 @@
         </epsilon.evl>
     	
     	<epsilon.evl src="epsilon/evl/checkInterfaceToRestrictedResourceUseAuthenticator.evl"> 
-    	    		<model ref="ie.lero.ata.epsilon.example1"/>
-    	    		<model ref="PatternAuthenticator"/>
-    	    		<model ref="PatternRoleBasedAccessControl"/>
-    	        </epsilon.evl>
+    		<model ref="ie.lero.ata.epsilon.example1"/>
+    		<model ref="PatternAuthenticator"/>
+    		<model ref="PatternRoleBasedAccessControl"/>
+        </epsilon.evl>
+    	
+    	<epsilon.evl src="epsilon/evl/checkRedundancy.evl"> 
+    		<model ref="ie.lero.ata.epsilon.example1"/>
+    		<model ref="PatternAuthenticator"/>
+    		<model ref="PatternRoleBasedAccessControl"/>
+        </epsilon.evl>
     	
     </target>
 </project>

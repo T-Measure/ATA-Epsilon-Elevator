@@ -8,6 +8,457 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GeQVtPaKEeu3hc00tiE9qw" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GeQVtfaKEeu3hc00tiE9qw" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_WAJgsRB9Eey1BP9ad9K0EA" name="myprofile" nsURI="http:///schemas/myprofile/_WAJgsBB9Eey1BP9ad9K0EA/16" nsPrefix="myprofile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAKu1RB9Eey1BP9ad9K0EA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAKu1hB9Eey1BP9ad9K0EA" key="Version" value="0.0.17"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAKu1xB9Eey1BP9ad9K0EA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAKu2BB9Eey1BP9ad9K0EA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAKu2RB9Eey1BP9ad9K0EA" key="Date" value="2021-09-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAKu2hB9Eey1BP9ad9K0EA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgshB9Eey1BP9ad9K0EA" name="Restricted">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgsxB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wz3usPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJgtBB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgthB9Eey1BP9ad9K0EA" name="User">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgtxB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hpVcYPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJguBB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJguhB9Eey1BP9ad9K0EA" name="AuthenticatorProofOfId">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJguxB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kph28PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJgvBB9Eey1BP9ad9K0EA" key="originalName" value="Authenticator::ProofOfId"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJgvRB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgvxB9Eey1BP9ad9K0EA" name="AuthenticatorAuthenticator">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgwBB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rCqjQPaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJgwRB9Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Authenticator"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJgwhB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgxBB9Eey1BP9ad9K0EA" name="AuthenticatorAuthenticationInformation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgxRB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uk4s0PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJgxhB9Eey1BP9ad9K0EA" key="originalName" value="Authenticator::AuthenticationInformation"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJgxxB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgyRB9Eey1BP9ad9K0EA" name="RoleBasedAccessControlRole">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgyhB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GePHkPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJgyxB9Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Role"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJgzBB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJgzhB9Eey1BP9ad9K0EA" name="RoleBasedAccessControlRight">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJgzxB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_J6kEgPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg0BB9Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Right"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg0RB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg0xB9Eey1BP9ad9K0EA" name="AuthenticatorInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg1BB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FPmcAP9jEeuTHYvxZ6fXDg">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg1RB9Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Interface"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg1hB9Eey1BP9ad9K0EA" name="base_Interface" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg2BB9Eey1BP9ad9K0EA" name="CriticalLevel1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg2RB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8eVlQBB6Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg2hB9Eey1BP9ad9K0EA" key="originalName" value="Critical::Level1"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg2xB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg3RB9Eey1BP9ad9K0EA" name="RedundancyPassive">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg3hB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PxDWoBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg3xB9Eey1BP9ad9K0EA" key="originalName" value="Redundancy::Passive"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg4BB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg4hB9Eey1BP9ad9K0EA" name="RedundancyActive">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg4xB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_U5hFQBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg5BB9Eey1BP9ad9K0EA" key="originalName" value="Redundancy::Active"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg5RB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg5xB9Eey1BP9ad9K0EA" name="CriticalLevel2">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg6BB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sKFBsBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg6RB9Eey1BP9ad9K0EA" key="originalName" value="Critical::Level2"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg6hB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WAJg7BB9Eey1BP9ad9K0EA" name="CriticalLevel3">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAJg7RB9Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zFkNIBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WAJg7hB9Eey1BP9ad9K0EA" key="originalName" value="Critical::Level3"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WAJg7xB9Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_-GlDgRB8Eey1BP9ad9K0EA" name="myprofile" nsURI="http:///schemas/myprofile/_-GlDgBB8Eey1BP9ad9K0EA/15" nsPrefix="myprofile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GmRqBB8Eey1BP9ad9K0EA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GmRqRB8Eey1BP9ad9K0EA" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GmRqhB8Eey1BP9ad9K0EA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GmRqxB8Eey1BP9ad9K0EA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GmRrBB8Eey1BP9ad9K0EA" key="Date" value="2021-09-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GmRrRB8Eey1BP9ad9K0EA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDghB8Eey1BP9ad9K0EA" name="Restricted">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDgxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wz3usPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDhBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDhhB8Eey1BP9ad9K0EA" name="User">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDhxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hpVcYPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDiBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDihB8Eey1BP9ad9K0EA" name="AuthenticatorProofOfId">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDixB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kph28PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDjBB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::ProofOfId"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDjRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDjxB8Eey1BP9ad9K0EA" name="AuthenticatorAuthenticator">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDkBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rCqjQPaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDkRB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Authenticator"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDkhB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDlBB8Eey1BP9ad9K0EA" name="AuthenticatorAuthenticationInformation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDlRB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uk4s0PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDlhB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::AuthenticationInformation"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDlxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDmRB8Eey1BP9ad9K0EA" name="RoleBasedAccessControlRole">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDmhB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GePHkPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDmxB8Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Role"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDnBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDnhB8Eey1BP9ad9K0EA" name="RoleBasedAccessControlRight">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDnxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_J6kEgPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDoBB8Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Right"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDoRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDoxB8Eey1BP9ad9K0EA" name="AuthenticatorInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDpBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FPmcAP9jEeuTHYvxZ6fXDg">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDpRB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Interface"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDphB8Eey1BP9ad9K0EA" name="base_Interface" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDqBB8Eey1BP9ad9K0EA" name="CriticalLevel1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDqRB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8eVlQBB6Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDqhB8Eey1BP9ad9K0EA" key="originalName" value="Critical::Level1"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDqxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDrRB8Eey1BP9ad9K0EA" name="PassiveRedundancy">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDrhB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PxDWoBB8Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDrxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDsRB8Eey1BP9ad9K0EA" name="ActiveRedundancy">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDshB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_U5hFQBB8Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDsxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDtRB8Eey1BP9ad9K0EA" name="CriticalLevel2">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDthB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sKFBsBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDtxB8Eey1BP9ad9K0EA" key="originalName" value="Critical::Level2"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDuBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-GlDuhB8Eey1BP9ad9K0EA" name="CriticalLevel3">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-GlDuxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zFkNIBB8Eey1BP9ad9K0EA">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-GlDvBB8Eey1BP9ad9K0EA" key="originalName" value="Critical::Level3"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_-GlDvRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_YU0ugBB8Eey1BP9ad9K0EA" name="myprofile" nsURI="http:///schemas/myprofile/_YU0HcBB8Eey1BP9ad9K0EA/14" nsPrefix="myprofile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU18oRB8Eey1BP9ad9K0EA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU18ohB8Eey1BP9ad9K0EA" key="Version" value="0.0.15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU18oxB8Eey1BP9ad9K0EA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU18pBB8Eey1BP9ad9K0EA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU18pRB8Eey1BP9ad9K0EA" key="Date" value="2021-09-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU18phB8Eey1BP9ad9K0EA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0ugRB8Eey1BP9ad9K0EA" name="Restricted">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0ughB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wz3usPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0ugxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0uhRB8Eey1BP9ad9K0EA" name="User">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0uhhB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hpVcYPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0uhxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0uiRB8Eey1BP9ad9K0EA" name="AuthenticatorProofOfId">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0uihB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kph28PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0uixB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::ProofOfId"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0ujBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0ujhB8Eey1BP9ad9K0EA" name="AuthenticatorAuthenticator">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0ujxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rCqjQPaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0ukBB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Authenticator"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0ukRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0ukxB8Eey1BP9ad9K0EA" name="AuthenticatorAuthenticationInformation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0ulBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uk4s0PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0ulRB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::AuthenticationInformation"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0ulhB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0umBB8Eey1BP9ad9K0EA" name="RoleBasedAccessControlRole">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0umRB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GePHkPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0umhB8Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Role"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0umxB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0unRB8Eey1BP9ad9K0EA" name="RoleBasedAccessControlRight">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0unhB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_J6kEgPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0unxB8Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Right"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0uoBB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0uohB8Eey1BP9ad9K0EA" name="AuthenticatorInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0uoxB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FPmcAP9jEeuTHYvxZ6fXDg">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YU0upBB8Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Interface"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0upRB8Eey1BP9ad9K0EA" name="base_Interface" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0upxB8Eey1BP9ad9K0EA" name="Critical">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0uqBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8eVlQBB6Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0uqRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0uqxB8Eey1BP9ad9K0EA" name="PassiveRedundancy">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0urBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PxDWoBB8Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0urRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YU0urxB8Eey1BP9ad9K0EA" name="ActiveRedundancy">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YU0usBB8Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_U5hFQBB8Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YU0usRB8Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_RL8cwRB7Eey1BP9ad9K0EA" name="myprofile" nsURI="http:///schemas/myprofile/_RL8cwBB7Eey1BP9ad9K0EA/13" nsPrefix="myprofile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL9q4RB7Eey1BP9ad9K0EA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL9q4hB7Eey1BP9ad9K0EA" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL9q4xB7Eey1BP9ad9K0EA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL9q5BB7Eey1BP9ad9K0EA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL9q5RB7Eey1BP9ad9K0EA" key="Date" value="2021-09-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL9q5hB7Eey1BP9ad9K0EA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8cwhB7Eey1BP9ad9K0EA" name="Restricted">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8cwxB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wz3usPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8cxBB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8cxhB7Eey1BP9ad9K0EA" name="User">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8cxxB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hpVcYPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8cyBB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8cyhB7Eey1BP9ad9K0EA" name="AuthenticatorProofOfId">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8cyxB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kph28PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8czBB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::ProofOfId"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8czRB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8czxB7Eey1BP9ad9K0EA" name="AuthenticatorAuthenticator">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c0BB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rCqjQPaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8c0RB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Authenticator"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c0hB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8c1BB7Eey1BP9ad9K0EA" name="AuthenticatorAuthenticationInformation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c1RB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uk4s0PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8c1hB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::AuthenticationInformation"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c1xB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8c2RB7Eey1BP9ad9K0EA" name="RoleBasedAccessControlRole">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c2hB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GePHkPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8c2xB7Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Role"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c3BB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8c3hB7Eey1BP9ad9K0EA" name="RoleBasedAccessControlRight">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c3xB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_J6kEgPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8c4BB7Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Right"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c4RB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8c4xB7Eey1BP9ad9K0EA" name="AuthenticatorInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c5BB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FPmcAP9jEeuTHYvxZ6fXDg">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL8c5RB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Interface"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c5hB7Eey1BP9ad9K0EA" name="base_Interface" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RL8c6BB7Eey1BP9ad9K0EA" name="Critical">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL8c6RB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8eVlQBB6Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RL8c6hB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Frf4YBB7Eey1BP9ad9K0EA" name="myprofile" nsURI="http:///schemas/myprofile/_FreDMBB7Eey1BP9ad9K0EA/12" nsPrefix="myprofile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FrhGghB7Eey1BP9ad9K0EA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrhGgxB7Eey1BP9ad9K0EA" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrhGhBB7Eey1BP9ad9K0EA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrhGhRB7Eey1BP9ad9K0EA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrhGhhB7Eey1BP9ad9K0EA" key="Date" value="2021-09-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FrhGhxB7Eey1BP9ad9K0EA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4YRB7Eey1BP9ad9K0EA" name="Restricted">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4YhB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Wz3usPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4YxB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4ZRB7Eey1BP9ad9K0EA" name="User">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4ZhB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_hpVcYPaJEeu3hc00tiE9qw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4ZxB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4aRB7Eey1BP9ad9K0EA" name="AuthenticatorProofOfId">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4ahB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kph28PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4axB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::ProofOfId"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4bBB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4bhB7Eey1BP9ad9K0EA" name="AuthenticatorAuthenticator">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4bxB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rCqjQPaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4cBB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Authenticator"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4cRB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4cxB7Eey1BP9ad9K0EA" name="AuthenticatorAuthenticationInformation">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4dBB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uk4s0PaJEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4dRB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::AuthenticationInformation"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4dhB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4eBB7Eey1BP9ad9K0EA" name="RoleBasedAccessControlRole">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4eRB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GePHkPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4ehB7Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Role"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4exB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4fRB7Eey1BP9ad9K0EA" name="RoleBasedAccessControlRight">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4fhB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_J6kEgPaKEeu3hc00tiE9qw">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4fxB7Eey1BP9ad9K0EA" key="originalName" value="RoleBasedAccessControl::Right"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4gBB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4ghB7Eey1BP9ad9K0EA" name="AuthenticatorInterface">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4gxB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FPmcAP9jEeuTHYvxZ6fXDg">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Frf4hBB7Eey1BP9ad9K0EA" key="originalName" value="Authenticator::Interface"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4hRB7Eey1BP9ad9K0EA" name="base_Interface" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interface"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Frf4hxB7Eey1BP9ad9K0EA" name="Critical">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Frf4iBB7Eey1BP9ad9K0EA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8eVlQBB6Eey1BP9ad9K0EA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Frf4iRB7Eey1BP9ad9K0EA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_7GqAof9jEeuTHYvxZ6fXDg" name="myprofile" nsURI="http:///schemas/myprofile/_7GqAoP9jEeuTHYvxZ6fXDg/11" nsPrefix="myprofile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7GqnuP9jEeuTHYvxZ6fXDg" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Gqnuf9jEeuTHYvxZ6fXDg" key="Version" value="0.0.12"/>
@@ -723,5 +1174,50 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_6eIoEP9jEeuTHYvxZ6fXDg" name="E_Authenticator::Interface_Interface22" memberEnd="_6eIoEf9jEeuTHYvxZ6fXDg _6eJPIP9jEeuTHYvxZ6fXDg">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_6eIoEf9jEeuTHYvxZ6fXDg" name="extension_Authenticator::Interface" type="_FPmcAP9jEeuTHYvxZ6fXDg" aggregation="composite" association="_6eIoEP9jEeuTHYvxZ6fXDg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_8eVlQBB6Eey1BP9ad9K0EA" name="Critical::Level1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ES2qcBB7Eey1BP9ad9K0EA" name="base_Class" association="_ES01QBB7Eey1BP9ad9K0EA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ES2qcRB7Eey1BP9ad9K0EA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_ES01QBB7Eey1BP9ad9K0EA" name="E_Critical::Level1_Class1" memberEnd="_ES2DYBB7Eey1BP9ad9K0EA _ES2qcBB7Eey1BP9ad9K0EA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_ES2DYBB7Eey1BP9ad9K0EA" name="extension_Critical::Level1" type="_8eVlQBB6Eey1BP9ad9K0EA" aggregation="composite" association="_ES01QBB7Eey1BP9ad9K0EA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_PxDWoBB8Eey1BP9ad9K0EA" name="Redundancy::Passive">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XBOYoBB8Eey1BP9ad9K0EA" name="base_Class" association="_XBNxkBB8Eey1BP9ad9K0EA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XBOYoRB8Eey1BP9ad9K0EA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_U5hFQBB8Eey1BP9ad9K0EA" name="Redundancy::Active">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xq_HUhB8Eey1BP9ad9K0EA" name="base_Class" association="_Xq_HUBB8Eey1BP9ad9K0EA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xq_HUxB8Eey1BP9ad9K0EA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_XBNxkBB8Eey1BP9ad9K0EA" name="E_Redundancy::Passive_Class1" memberEnd="_XBNxkRB8Eey1BP9ad9K0EA _XBOYoBB8Eey1BP9ad9K0EA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_XBNxkRB8Eey1BP9ad9K0EA" name="extension_Redundancy::Passive" type="_PxDWoBB8Eey1BP9ad9K0EA" aggregation="composite" association="_XBNxkBB8Eey1BP9ad9K0EA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_Xq_HUBB8Eey1BP9ad9K0EA" name="E_Redundancy::Active_Class1" memberEnd="_Xq_HURB8Eey1BP9ad9K0EA _Xq_HUhB8Eey1BP9ad9K0EA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Xq_HURB8Eey1BP9ad9K0EA" name="extension_Redundancy::Active" type="_U5hFQBB8Eey1BP9ad9K0EA" aggregation="composite" association="_Xq_HUBB8Eey1BP9ad9K0EA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_sKFBsBB8Eey1BP9ad9K0EA" name="Critical::Level2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3w0bUhB8Eey1BP9ad9K0EA" name="base_Class" association="_3w0bUBB8Eey1BP9ad9K0EA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3w0bUxB8Eey1BP9ad9K0EA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_zFkNIBB8Eey1BP9ad9K0EA" name="Critical::Level3">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4xz-QhB8Eey1BP9ad9K0EA" name="base_Class" association="_4xz-QBB8Eey1BP9ad9K0EA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4xz-QxB8Eey1BP9ad9K0EA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_3w0bUBB8Eey1BP9ad9K0EA" name="E_Critical::Level2_Class31" memberEnd="_3w0bURB8Eey1BP9ad9K0EA _3w0bUhB8Eey1BP9ad9K0EA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_3w0bURB8Eey1BP9ad9K0EA" name="extension_Critical::Level2" type="_sKFBsBB8Eey1BP9ad9K0EA" aggregation="composite" association="_3w0bUBB8Eey1BP9ad9K0EA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_4xz-QBB8Eey1BP9ad9K0EA" name="E_Critical::Level3_Class32" memberEnd="_4xz-QRB8Eey1BP9ad9K0EA _4xz-QhB8Eey1BP9ad9K0EA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_4xz-QRB8Eey1BP9ad9K0EA" name="extension_Critical::Level3" type="_zFkNIBB8Eey1BP9ad9K0EA" aggregation="composite" association="_4xz-QBB8Eey1BP9ad9K0EA"/>
   </packagedElement>
 </uml:Profile>
