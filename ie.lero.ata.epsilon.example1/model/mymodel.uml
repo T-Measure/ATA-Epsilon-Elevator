@@ -55,11 +55,11 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Ia5lg_T-EeufacaapdQYeg" name="right" type="_IilXUPT9EeufacaapdQYeg" association="_Ia5lgPT-EeufacaapdQYeg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PVDUMPT-EeufacaapdQYeg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PVG-kPT-EeufacaapdQYeg" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PVG-kPT-EeufacaapdQYeg"/>
       </ownedEnd>
       <ownedEnd xmi:type="uml:Property" xmi:id="_Ia6MkPT-EeufacaapdQYeg" name="role" type="_LLJKcPT8EeufacaapdQYeg" association="_Ia5lgPT-EeufacaapdQYeg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QKMzgPT-EeufacaapdQYeg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QKP20PT-EeufacaapdQYeg" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QKP20PT-EeufacaapdQYeg"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_T2Q1kPT-EeufacaapdQYeg" name="access" memberEnd="_T2Q1k_T-EeufacaapdQYeg _T2RcoPT-EeufacaapdQYeg">
@@ -153,15 +153,15 @@
   <myprofile:User xmi:id="_tI6E8PkkEeuzj4FiJXG4MQ" base_Class="_lsInwPT6EeufacaapdQYeg"/>
   <myprofile:User xmi:id="_uS2IgPkkEeuzj4FiJXG4MQ" base_Class="_rAy_UPT6EeufacaapdQYeg"/>
   <myprofile:Restricted xmi:id="_vq12MPkkEeuzj4FiJXG4MQ" base_Class="_G9vyYPT7EeufacaapdQYeg"/>
-  <myprofile:RoleBasedAccessControlRole xmi:id="_xf3eIPkkEeuzj4FiJXG4MQ" base_Class="_LLJKcPT8EeufacaapdQYeg"/>
-  <myprofile:RoleBasedAccessControlRight xmi:id="_yzqBQPkkEeuzj4FiJXG4MQ" base_Class="_IilXUPT9EeufacaapdQYeg"/>
-  <myprofile:AuthenticatorProofOfId xmi:id="_0CsAMPkkEeuzj4FiJXG4MQ" base_Class="_cVoA0PT5EeufacaapdQYeg"/>
-  <myprofile:AuthenticatorAuthenticator xmi:id="_1SYtgPkkEeuzj4FiJXG4MQ" base_Class="_jmeYQPT5EeufacaapdQYeg"/>
-  <myprofile:AuthenticatorAuthenticationInformation xmi:id="_2TZekPkkEeuzj4FiJXG4MQ" base_Class="_l_7i8PT5EeufacaapdQYeg"/>
-  <myprofile:AuthenticatorInterface xmi:id="__e-2UP9kEeuTHYvxZ6fXDg" base_Interface="_8qWlEPT8EeufacaapdQYeg"/>
-  <myprofile:RedundancyActive xmi:id="_Y8fWABB9Eey1BP9ad9K0EA" base_Class="_hTX94BB8Eey1BP9ad9K0EA"/>
-  <myprofile:RedundancyActive xmi:id="_brO-wBB-Eey1BP9ad9K0EA" base_Class="_QpcsUBB-Eey1BP9ad9K0EA"/>
-  <myprofile:RedundancyPassive xmi:id="_nF5rQBB-Eey1BP9ad9K0EA" base_Class="_kV_IYBB-Eey1BP9ad9K0EA"/>
-  <myprofile:CriticalLevel1 xmi:id="_DbmBkBCXEeyN7p5SA2mdFQ" base_Class="_dE1O8BB-Eey1BP9ad9K0EA"/>
-  <myprofile:CriticalLevel2 xmi:id="_FWMtEBCXEeyN7p5SA2mdFQ" base_Class="_uSXOwBB6Eey1BP9ad9K0EA"/>
+  <myprofile:AuthenticatorProofOfId xmi:id="_KWo_cBIIEeyi8aAccAZ8-g" base_Class="_cVoA0PT5EeufacaapdQYeg"/>
+  <myprofile:AuthenticatorAuthenticator xmi:id="_LcemIBIIEeyi8aAccAZ8-g" base_Class="_jmeYQPT5EeufacaapdQYeg"/>
+  <myprofile:AuthenticatorAuthenticationInformation xmi:id="_NlHtoBIIEeyi8aAccAZ8-g" base_Class="_l_7i8PT5EeufacaapdQYeg"/>
+  <myprofile:RoleBasedAccessControlRole xmi:id="_Pw3zgBIIEeyi8aAccAZ8-g" base_Class="_LLJKcPT8EeufacaapdQYeg"/>
+  <myprofile:RoleBasedAccessControlRight xmi:id="_SRlcwBIIEeyi8aAccAZ8-g" base_Class="_IilXUPT9EeufacaapdQYeg"/>
+  <myprofile:CriticalLevel2 xmi:id="_VNlT0BIIEeyi8aAccAZ8-g" base_Class="_uSXOwBB6Eey1BP9ad9K0EA"/>
+  <myprofile:RedundancyActive xmi:id="_WTOtQBIIEeyi8aAccAZ8-g" base_Class="_hTX94BB8Eey1BP9ad9K0EA"/>
+  <myprofile:RedundancyActive xmi:id="_XqHnsBIIEeyi8aAccAZ8-g" base_Class="_QpcsUBB-Eey1BP9ad9K0EA"/>
+  <myprofile:CriticalLevel1 xmi:id="_YjJhcBIIEeyi8aAccAZ8-g" base_Class="_dE1O8BB-Eey1BP9ad9K0EA"/>
+  <myprofile:RedundancyPassive xmi:id="_a3kbIBIIEeyi8aAccAZ8-g" base_Class="_kV_IYBB-Eey1BP9ad9K0EA"/>
+  <myprofile:AuthenticatorInterface xmi:id="_tqjZABIIEeyi8aAccAZ8-g" base_Interface="_8qWlEPT8EeufacaapdQYeg"/>
 </xmi:XMI>

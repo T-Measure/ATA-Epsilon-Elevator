@@ -4,6 +4,7 @@
     	    <parameter name="modelFile" value="/ie.lero.ata.epsilon.example1/model/mymodel.uml"/>
     		<parameter name="metamodelUri" value="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard"/>
     		
+    		
     	    <parameter name="isMetamodelFileBased" value="true"/>
     	    <parameter name="readOnLoad" value="true"/>
     	</epsilon.loadModel>
