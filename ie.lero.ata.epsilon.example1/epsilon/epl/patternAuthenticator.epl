@@ -24,7 +24,7 @@ verifyAuthInfo : Association in: Association.all.select(s| s.memberEnds.getTypes
   	}
   	
   	do {
-  	      "Hello".println();
+  	      
    	} 
 }
 
